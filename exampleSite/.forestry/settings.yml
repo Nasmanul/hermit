@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: nasman
+  label: main
+  match: "**/*"
 - type: directory
   path: exampleSite/content/posts
   label: Posts
