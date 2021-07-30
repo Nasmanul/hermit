@@ -7,7 +7,6 @@ sections:
 - type: document
   path: nasman
   label: main
-  match: "**/*"
 - type: directory
   path: exampleSite/content/posts
   label: Posts
